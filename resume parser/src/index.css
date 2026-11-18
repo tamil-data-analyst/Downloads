@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Base page  Everything else is set with Tailwind classes in the components. */
+body {
+  /* Same values Tailwind v4 generates for min-h-screen, bg-slate-950, text-slate-100 and antialiased. */
+  min-height: 100vh;
+  background-color: oklch(0.129 0.042 264.695);
+  color: oklch(0.968 0.007 247.896);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
